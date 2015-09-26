@@ -79,5 +79,3 @@
 			return !is_dir($Path) && pathinfo($Path, PATHINFO_EXTENSION) === 'json';
 		}
 	}
-
-	Config::Load();
